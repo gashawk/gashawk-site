@@ -132,7 +132,7 @@ class Contact extends Component {
 									<div className="row">
 										<div className="col-lg-6 col-md-12">
 											<div className="form-group">
-												<label for="Name">Name</label>
+												<label for="name">Name</label>
 												<TextInput
 													name="name"
 													id="name"
@@ -149,7 +149,7 @@ class Contact extends Component {
 										</div>
 										<div className="col-lg-6 col-md-12">
 											<div className="form-group">
-												<label for="Email">Email</label>
+												<label for="email">Email</label>
 												<TextInput
 													name="email"
 													id="email"
@@ -168,7 +168,7 @@ class Contact extends Component {
 
 										<div className="col-lg-12 col-md-12">
 											<div className="form-group">
-												<label for="Subject">
+												<label for="subject">
 													Subject
 												</label>
 												<TextInput
@@ -187,12 +187,12 @@ class Contact extends Component {
 										</div>
 										<div className="col-lg-12 col-md-12">
 											<div className="form-group">
-												<label for="Message">
+												<label for="message">
 													Message
 												</label>
 												<TextInput
 													name="message"
-													id="description"
+													id="message"
 													multiline
 													placeholder="Message"
 													className="form-control"
