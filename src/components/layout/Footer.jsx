@@ -23,6 +23,9 @@ class Footer extends Component {
 													href={
 														this.props.facebookLink
 													}
+													aria-label={
+														this.props.facebookLabel
+													}
 												>
 													<i className="icofont-facebook" />
 												</a>
@@ -34,6 +37,9 @@ class Footer extends Component {
 												<a
 													href={
 														this.props.twitterLink
+													}
+													aria-label={
+														this.props.twitterLabel
 													}
 												>
 													<i className="icofont-twitter" />
@@ -47,6 +53,10 @@ class Footer extends Component {
 													href={
 														this.props.instagramLink
 													}
+													aria-label={
+														this.props
+															.instagramLabel
+													}
 												>
 													<i className="icofont-instagram" />
 												</a>
@@ -58,6 +68,9 @@ class Footer extends Component {
 												<a
 													href={
 														this.props.linkedinLink
+													}
+													aria-label={
+														this.props.linkedinLabel
 													}
 												>
 													<i className="icofont-linkedin" />
@@ -80,9 +93,13 @@ Footer.propTypes = {
 	copyrightText: PropTypes.string,
 
 	facebookLink: PropTypes.string,
+	facebookLabel: PropTypes.string,
 	twitterLink: PropTypes.string,
+	twitterLabel: PropTypes.string,
 	instagramLink: PropTypes.string,
-	linkedinLink: PropTypes.string
+	instagramLabel: PropTypes.string,
+	linkedinLink: PropTypes.string,
+	linkedinLabel: PropTypes.string
 };
 
 // Default Props
@@ -90,9 +107,13 @@ Footer.defaultProps = {
 	copyrightText: " Gäshawk Incorporated. All Rights Reserved.",
 
 	facebookLink: "https://www.facebook.com/gashawkrv/",
+	facebookLabel: "Gäshawk Facebook",
 	twitterLink: "https://twitter.com/gashawkrv",
+	twitterLabel: "Gäshawk Twitter",
 	instagramLink: "https://www.instagram.com/gashawkrv/",
-	linkedinLink: "https://www.linkedin.com/company/gashawkrv/about/"
+	instagramLabel: "Gäshawk Instagram",
+	linkedinLink: "https://www.linkedin.com/company/gashawkrv/about/",
+	linkedinLabel: "Gäshawk LinkedIn"
 };
 
 export default Footer;

@@ -15,7 +15,10 @@ class Team extends Component {
 						<ul className="social">
 							{team.linkedinLink && (
 								<li>
-									<a href={team.linkedinLink}>
+									<a
+										href={team.linkedinLink}
+										aria-label={team.linkedinLabel}
+									>
 										<i className="icofont-linkedin" />
 									</a>
 								</li>
@@ -23,7 +26,10 @@ class Team extends Component {
 
 							{team.githubLink && (
 								<li>
-									<a href={team.githubLink}>
+									<a
+										href={team.githubLink}
+										aria-label={team.githubLabel}
+									>
 										<i className="icofont-github" />
 									</a>
 								</li>
@@ -31,7 +37,10 @@ class Team extends Component {
 
 							{team.websiteLink && (
 								<li>
-									<a href={team.websiteLink}>
+									<a
+										href={team.websiteLink}
+										aria-label={team.websiteLabel}
+									>
 										<i className="icofont-web" />
 									</a>
 								</li>
@@ -83,6 +92,7 @@ Team.defaultProps = {
 		{
 			linkedinLink:
 				"https://www.linkedin.com/in/jason-matthews-10423073/",
+			linkedinLabel: "Jason LinkedIn",
 			name: "Jason Matthews",
 			designation: "Founder & CEO",
 			image: require("../../assets/img/jason.jpg"),
@@ -97,7 +107,9 @@ Team.defaultProps = {
 		{
 			linkedinLink:
 				"https://www.linkedin.com/in/steven-claucherty-7a1615b4/",
+			linkedinLabel: "Steve LinkedIn",
 			websiteLink: "https://www3.nd.edu/~sclauche/",
+			websiteLabel: "Steve Website",
 			name: "Steve Claucherty",
 			designation: "Mechanical Engineer",
 			image: require("../../assets/img/steve.jpg"),
@@ -105,8 +117,11 @@ Team.defaultProps = {
 		},
 		{
 			linkedinLink: "https://www.linkedin.com/in/lockjio/",
+			linkedinLabel: "Jio LinkedIn",
 			githubLink: "https://github.com/lockjio",
+			githubLabel: "Jio GitHub",
 			websiteLink: "https://jbuenviaje.com/",
+			websiteLabel: "Jio Website",
 			name: "Jio Buenviaje",
 			designation: "Technical Advisor",
 			image: require("../../assets/img/jio.jpg"),
