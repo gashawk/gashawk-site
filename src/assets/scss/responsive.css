@@ -17,6 +17,9 @@
     left: auto;
     right: 2px;
   }
+  .owl-item {
+    margin-top: 50px;
+  }
   .section-title {
     margin-bottom: 40px;
   }
@@ -183,6 +186,9 @@
   }
   .copyright-area {
     margin-top: 50px;
+  }
+  .owl-item {
+    margin-top: 30px;
   }
   .bgTop {
     visibility: hidden;

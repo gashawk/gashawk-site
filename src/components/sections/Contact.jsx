@@ -132,6 +132,7 @@ class Contact extends Component {
 									<div className="row">
 										<div className="col-lg-6 col-md-12">
 											<div className="form-group">
+												<label for="Name">Name</label>
 												<TextInput
 													name="name"
 													id="name"
@@ -143,12 +144,12 @@ class Contact extends Component {
 													autoComplete="off"
 													onChange={this.handleFields}
 												/>
-												<label for="Name"></label>
 												<div className="help-block with-errors" />
 											</div>
 										</div>
 										<div className="col-lg-6 col-md-12">
 											<div className="form-group">
+												<label for="Email">Email</label>
 												<TextInput
 													name="email"
 													id="email"
@@ -161,13 +162,15 @@ class Contact extends Component {
 													autoComplete="off"
 													onChange={this.handleFields}
 												/>
-												<label for="Email"></label>
 												<div className="help-block with-errors" />
 											</div>
 										</div>
 
 										<div className="col-lg-12 col-md-12">
 											<div className="form-group">
+												<label for="Subject">
+													Subject
+												</label>
 												<TextInput
 													name="subject"
 													id="subject"
@@ -180,11 +183,13 @@ class Contact extends Component {
 													autoComplete="off"
 													onChange={this.handleFields}
 												/>
-												<label for="Subject"></label>
 											</div>
 										</div>
 										<div className="col-lg-12 col-md-12">
 											<div className="form-group">
+												<label for="Message">
+													Message
+												</label>
 												<TextInput
 													name="message"
 													id="description"
@@ -198,18 +203,12 @@ class Contact extends Component {
 													autoComplete="off"
 													onChange={this.handleFields}
 												/>
-												<label for="Message"></label>
 											</div>
 										</div>
 									</div>
 
 									<div className="form-group">
-										<button
-											className="btn btn-primary"
-											aria-labelledby={
-												this.props.contactBtnTitle
-											}
-										>
+										<button className="btn btn-primary">
 											{this.props.contactBtnTitle}
 										</button>
 									</div>
