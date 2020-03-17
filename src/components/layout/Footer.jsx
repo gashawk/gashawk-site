@@ -77,6 +77,19 @@ class Footer extends Component {
 												</a>
 											</li>
 										)}
+
+										{this.props.githubLink && (
+											<li>
+												<a
+													href={this.props.githubLink}
+													aria-label={
+														this.props.githubLabel
+													}
+												>
+													<i className="icofont-github" />
+												</a>
+											</li>
+										)}
 									</ul>
 								</div>
 							</div>
@@ -99,7 +112,9 @@ Footer.propTypes = {
 	instagramLink: PropTypes.string,
 	instagramLabel: PropTypes.string,
 	linkedinLink: PropTypes.string,
-	linkedinLabel: PropTypes.string
+	linkedinLabel: PropTypes.string,
+	githubLink: PropTypes.string,
+	githubLabel: PropTypes.string
 };
 
 // Default Props
@@ -113,7 +128,9 @@ Footer.defaultProps = {
 	instagramLink: "https://www.instagram.com/gashawkrv/",
 	instagramLabel: "Gäshawk Instagram",
 	linkedinLink: "https://www.linkedin.com/company/gashawkrv/about/",
-	linkedinLabel: "Gäshawk LinkedIn"
+	linkedinLabel: "Gäshawk LinkedIn",
+	githubLink: "https://github.com/gashawk",
+	githubLabel: "Gäshawk GitHub"
 };
 
 export default Footer;
