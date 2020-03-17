@@ -54,11 +54,11 @@ class Navibar extends Component {
 									duration={800}
 									className="navbar-brand"
 								>
+									Gäs<span>hawk</span>
 									<img
 										src={require("../../assets/img/gashawk.png")}
 										alt="Gäshawk logo"
 									/>
-									äs<span>hawk</span>
 								</Link>
 							</React.Fragment>
 						) : (
