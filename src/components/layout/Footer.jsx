@@ -11,7 +11,8 @@ class Footer extends Component {
 							<div className="row">
 								<div className="col-lg-7 col-md-7">
 									<p>
-										&copy; {new Date().getFullYear()}
+										Copyright &copy;{" "}
+										{new Date().getFullYear()}
 										{this.props.copyrightText}
 									</p>
 								</div>
