@@ -7,7 +7,7 @@ class Partners extends Component {
 		// Partners' Map Loop
 		const partnerData = this.props.partnersData.map((partner, index) => (
 			<div
-				className="col-lg-4 col-md-6 col-sm-12 owl-item item"
+				className="col-lg-3 col-md-6 col-sm-12 owl-item item"
 				key={index}
 			>
 				<a href={partner.partnerLink}>
@@ -61,6 +61,10 @@ Partners.defaultProps = {
 		{
 			partnerLogo: require("../../assets/img/ndesteem.png"),
 			partnerLink: "https://esteem.nd.edu/"
+		},
+		{
+			partnerLogo: require("../../assets/img/susbe.png"),
+			partnerLink: "https://startupsouthbendelkhart.com/"
 		}
 	]
 };
