@@ -142,8 +142,8 @@ class Contact extends Component {
 													placeholder="Name"
 													autoComplete="off"
 													onChange={this.handleFields}
-													aria-labelledby="Name"
 												/>
+												<label for="Name"></label>
 												<div className="help-block with-errors" />
 											</div>
 										</div>
@@ -160,8 +160,8 @@ class Contact extends Component {
 													placeholder="Email"
 													autoComplete="off"
 													onChange={this.handleFields}
-													aria-labelledby="Email"
 												/>
+												<label for="Email"></label>
 												<div className="help-block with-errors" />
 											</div>
 										</div>
@@ -179,8 +179,8 @@ class Contact extends Component {
 													placeholder="Subject"
 													autoComplete="off"
 													onChange={this.handleFields}
-													aria-labelledby="Subject"
 												/>
+												<label for="Subject"></label>
 											</div>
 										</div>
 										<div className="col-lg-12 col-md-12">
@@ -197,8 +197,8 @@ class Contact extends Component {
 													rows="5"
 													autoComplete="off"
 													onChange={this.handleFields}
-													aria-labelledby="Message"
 												/>
+												<label for="Message"></label>
 											</div>
 										</div>
 									</div>
