@@ -34,6 +34,13 @@ module.exports = {
 				lang: "en"
 			}
 		},
+		{
+			resolve: `gatsby-plugin-google-analytics`,
+			options: {
+				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
+				trackingId: "UA-150731209-4"
+			}
+		},
 		`gatsby-plugin-sass`,
 		`gatsby-plugin-smoothscroll`,
 		`gatsby-plugin-favicon`,
