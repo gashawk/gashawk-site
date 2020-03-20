@@ -67,7 +67,7 @@ class App extends Component {
 					<meta name="twitter:card" content="summary_large_image" />
 					<link rel="canonical" href="https://gashawkrv.com/" />
 				</Helmet>
-				<div>
+				<main>
 					<Preloader>
 						<Navbar pageName="home" />
 						{/* Banner */}
@@ -93,7 +93,7 @@ class App extends Component {
 							<Loader />
 						</Placeholder>
 					</Preloader>
-				</div>
+				</main>
 			</div>
 		);
 	}
