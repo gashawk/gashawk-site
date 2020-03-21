@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: `Gäshawk RV`,
+		title: `Gäshawk`,
 		description: `Our passion is the great outdoors. Our calling is creating solutions for it.`,
 		author: `@lockjio`,
 		siteUrl: `https://gashawkrv.com/`
