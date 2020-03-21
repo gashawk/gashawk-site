@@ -42,7 +42,6 @@ module.exports = {
 			}
 		},
 		`gatsby-plugin-sass`,
-		`gatsby-plugin-smoothscroll`,
 		`gatsby-plugin-favicon`,
 		`gatsby-plugin-remove-trailing-slashes`,
 		`gatsby-plugin-offline`
