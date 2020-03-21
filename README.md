@@ -19,7 +19,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Add site metadata (react-helmet, gatsby-plugin-react-helmet)
 - [x] Fix contact form (axios and Formcarry API)
 - [x] Fix site metadata
-- [x] Delete unused assets (images, CSS)
 - [x] Integrate Google Analytics API (gatsby-plugin-google-analytics)
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Optimize images (resize)
