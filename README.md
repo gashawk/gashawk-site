@@ -18,7 +18,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Futher improve site through plugins (gatsby-plugin-remove-trailing-slashes)
 - [x] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [x] Add site metadata (react-helmet, gatsby-plugin-react-helmet)
-- [x] Change social icons
 - [x] Add websites to Projects section
 - [x] Fix contact form (axios and Formcarry API)
 - [x] Fix site metadata
