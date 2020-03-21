@@ -13,7 +13,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Fix favicon path (gatsby-plugin-favicon)
 - [x] Add 404 error page
 - [x] Fix navigation within page
-- [x] Add auto sitemap generation (gatsby-plugin-sitemap)
 - [x] Futher improve site through plugins (gatsby-plugin-remove-trailing-slashes)
 - [x] Optimize to be PWA (gatsby-plugin-manifest, gatsby-plugin-offline, `<noscript>`)
 - [x] Add site metadata (react-helmet, gatsby-plugin-react-helmet)
