@@ -21,7 +21,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Integrate Google Analytics API (gatsby-plugin-google-analytics)
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Optimize images (resize)
-- [ ] Serve images in next-gen format (WebP) ?
 - [ ] Connect to Contentful API for more client control
 - [ ] Delete unused dependencies (depcheck/npm-check-unused)
 
