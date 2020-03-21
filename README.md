@@ -19,7 +19,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Fix contact form (axios and Formcarry API)
 - [x] Fix site metadata
 - [x] Integrate Google Analytics API (gatsby-plugin-google-analytics)
-- [x] Optimize site through PWA lighthouse audit
 - [x] Optimize site performance through PWA lighthouse audit
 - [ ] Optimize and lazy load images (gatsby-image, gatsby-background-image)
 - [ ] Optimize images (resize)
