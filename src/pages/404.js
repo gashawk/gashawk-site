@@ -37,7 +37,7 @@ class App extends Component {
 					<meta property="og:url" content="gashawkrv.com" />
 					<meta property="twitter:url" content="gashawkrv.com" />
 					<meta name="theme-color" content="#ffffff" />
-					<title>Gäshawk RV</title>
+					<title>Gäshawk</title>
 					<meta property="og:title" content="Gäshawk RV" />
 					<meta property="twitter:title" content="Gäshawk RV" />
 					<meta
