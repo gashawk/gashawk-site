@@ -19,6 +19,7 @@
 ========================*/
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -63,7 +64,8 @@ h6 {
 
 p {
   margin-bottom: 0;
-  font-size: 15px;
+  font-family: "Zilla Slab", serif;
+  font-size: 17px;
   line-height: 1.8;
   color: #013220;
 }
@@ -777,6 +779,8 @@ label {
 }
 
 .our-team .post {
+  font-family: "Zilla Slab", serif;
+  font-size: 17px;
   display: inline-block;
   color: #013220;
 }

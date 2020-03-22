@@ -20,8 +20,10 @@
 ========================*/
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
 
-$font-stack: "Poppins", sans-serif;
+$font-stack-sans: "Poppins", sans-serif;
+$font-stack-serif: "Zilla Slab", serif;
 $font-size: 15px;
+$font-size-large: 17px;
 $dark-color: #222222;
 $pcolor: #013220;
 $white-color: #ffffff;
@@ -32,15 +34,20 @@ $green-color: #afe3d0;
 $orange-color: #d57e0e;
 $repair-main-color: #5d3706;
 
-$family: unquote(
+$family-sans: unquote(
 	"Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap"
 );
-@import url("https://fonts.googleapis.com/css?family=#{$family}");
+$family-serif: unquote(
+	"Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+);
+@import url("https://fonts.googleapis.com/css?family=#{$family-sans}");
+@import url("https://fonts.googleapis.com/css?family=#{$family-serif}");
+
 body {
 	padding: 0;
 	margin: 0;
 	font: {
-		family: $font-stack;
+		family: $font-stack-sans;
 		size: $font-size;
 	}
 }
@@ -76,7 +83,10 @@ h6 {
 }
 p {
 	margin-bottom: 0;
-	font-size: $font-size;
+	font: {
+		family: $font-stack-serif;
+		size: $font-size-large;
+	}
 	line-height: 1.8;
 	color: $secondary-color;
 }
@@ -762,6 +772,10 @@ label {
 		}
 	}
 	.post {
+		font: {
+			family: $font-stack-serif;
+			size: $font-size-large;
+		}
 		display: inline-block;
 		color: $secondary-color;
 	}
