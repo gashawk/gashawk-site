@@ -1042,8 +1042,8 @@ label {
 	Start Animate CSS
 ==========================*/
 .mover {
-  -webkit-animation: mover 2.5s infinite alternate;
-          animation: mover 2.5s infinite alternate;
+  -webkit-animation: mover 2s infinite alternate;
+          animation: mover 2s infinite alternate;
 }
 
 @-webkit-keyframes mover {
