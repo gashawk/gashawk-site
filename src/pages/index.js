@@ -47,7 +47,7 @@ class App extends Component {
 						content="Gäshawk RV Website"
 					/>
 
-					<meta property="og:title" content="Gäshawk Website" />
+					<meta property="og:title" content="Gäshawk" />
 					<meta
 						property="og:image"
 						content="https://user-images.githubusercontent.com/50670255/76829833-77589380-67fa-11ea-9de4-4f9874fd04e9.png"
