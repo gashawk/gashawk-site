@@ -42,16 +42,19 @@ class App extends Component {
 					<title>Gäshawk</title>
 					<meta name="author" content="Jio Buenviaje" />
 					<meta property="og:type" content="website" />
-					<meta property="og:site_name" content="Gäshawk" />
+					<meta
+						property="og:site_name"
+						content="Gäshawk RV Website"
+					/>
 
-					<meta property="og:title" content="Gäshawk" />
+					<meta property="og:title" content="Gäshawk RV Website" />
 					<meta
 						property="og:image"
 						content="https://user-images.githubusercontent.com/50670255/76829833-77589380-67fa-11ea-9de4-4f9874fd04e9.png"
 					/>
 					<meta
 						property="og:description"
-						content="Our passion is the great outdoors. Our calling is creating solutions for it."
+						content="At Gäshawk, we envision a motorhome that uses sustainable source materials and cutting edge technology to reduce our impact on the environment we love to enjoy."
 					/>
 					<meta property="og:url" content="gashawkrv.com" />
 
@@ -60,11 +63,11 @@ class App extends Component {
 					<meta property="twitter:title" content="Gäshawk" />
 					<meta
 						name="description"
-						content="Our passion is the great outdoors. Our calling is creating solutions for it."
+						content="At Gäshawk, we envision a motorhome that uses sustainable source materials and cutting edge technology to reduce our impact on the environment we love to enjoy."
 					/>
 					<meta
 						property="twitter:description"
-						content="Our passion is the great outdoors. Our calling is creating solutions for it."
+						content="At Gäshawk, we envision a motorhome that uses sustainable source materials and cutting edge technology to reduce our impact on the environment we love to enjoy."
 					/>
 					<meta
 						name="keywords"
