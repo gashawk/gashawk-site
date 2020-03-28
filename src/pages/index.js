@@ -39,21 +39,21 @@ class App extends Component {
 						name="viewport"
 						content="width=device-width, initial-scale=1, shrink-to-fit=no"
 					/>
+					<title>Gäshawk</title>
 					<meta name="author" content="Jio Buenviaje" />
 					<meta property="og:type" content="website" />
 					<meta property="og:site_name" content="Gäshawk" />
+
+					<meta property="og:title" content="Gäshawk" />
+					<meta property="og:image" content="../assets/img/gashawkImg.png" />
+					<meta property="og:description" content="Our passion is the great outdoors. Our calling is creating solutions for it."/>
 					<meta property="og:url" content="gashawkrv.com" />
+
 					<meta property="twitter:url" content="gashawkrv.com" />
 					<meta name="theme-color" content="#ffffff" />
-					<title>Gäshawk</title>
-					<meta property="og:title" content="Gäshawk RV" />
-					<meta property="twitter:title" content="Gäshawk RV" />
+					<meta property="twitter:title" content="Gäshawk" />
 					<meta
 						name="description"
-						content="Our passion is the great outdoors. Our calling is creating solutions for it."
-					/>
-					<meta
-						property="og:description"
 						content="Our passion is the great outdoors. Our calling is creating solutions for it."
 					/>
 					<meta
