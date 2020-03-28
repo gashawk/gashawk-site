@@ -70,6 +70,10 @@ class App extends Component {
 						name="keywords"
 						content="gashawk,gashawkrv,sustainablerv,gäshawk,gäshawkrv,sustainablervs,gashawkrvs,gäshawkrvs,naturalgasrv,naturalgasrvs,overwatch,gashawkoverwatch,gäshawkoverwatch,arduino,notredame,notre,dame,nd,southbend,indiana,arduino,lidar,lidartechnology,mccloskey,mccloskeynewventure,mccloskeynewventurecompetition,susbe,elkhart,ideacenter,ndideacenter,innovationpark,ndip,ndic"
 					/>
+					<meta
+						property="twitter:image"
+						content="https://user-images.githubusercontent.com/50670255/76829833-77589380-67fa-11ea-9de4-4f9874fd04e9.png"
+					/>
 					<meta name="twitter:card" content="summary_large_image" />
 					<link rel="canonical" href="https://gashawkrv.com/" />
 				</Helmet>
