@@ -42,10 +42,7 @@ class App extends Component {
 					<title>Gäshawk</title>
 					<meta name="author" content="Jio Buenviaje" />
 					<meta property="og:type" content="website" />
-					<meta
-						property="og:site_name"
-						content="Gäshawk RV Website"
-					/>
+					<meta property="og:site_name" content="Gäshawk" />
 
 					<meta property="og:title" content="Gäshawk" />
 					<meta
