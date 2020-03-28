@@ -45,8 +45,14 @@ class App extends Component {
 					<meta property="og:site_name" content="Gäshawk" />
 
 					<meta property="og:title" content="Gäshawk" />
-					<meta property="og:image" content="../assets/img/gashawkImg.png" />
-					<meta property="og:description" content="Our passion is the great outdoors. Our calling is creating solutions for it."/>
+					<meta
+						property="og:image"
+						content="https://user-images.githubusercontent.com/50670255/76829833-77589380-67fa-11ea-9de4-4f9874fd04e9.png"
+					/>
+					<meta
+						property="og:description"
+						content="Our passion is the great outdoors. Our calling is creating solutions for it."
+					/>
 					<meta property="og:url" content="gashawkrv.com" />
 
 					<meta property="twitter:url" content="gashawkrv.com" />
