@@ -1,5 +1,6 @@
 {
-	"name": "Gashawk",
+	"name": "gashawk-site",
+	"description": "Our passion is the great outdoors. Our calling is creating solutions for it.",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
