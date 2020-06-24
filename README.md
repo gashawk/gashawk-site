@@ -24,7 +24,6 @@ Progressive Web Application (PWA) developed in React through Gatsby using Sass/S
 - [x] Fix metadata image
 - [x] Optimize images through Netlify plugin
 - [x] Fix favicon sizes
-- [ ] Lazy load images (gatsby-image, gatsby-background-image)
 - [x] Delete unused dependencies (depcheck/npm-check-unused)
 
 ---
