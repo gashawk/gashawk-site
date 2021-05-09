@@ -81,7 +81,7 @@ Team.propTypes = {
 	sectionTitle: PropTypes.string,
 	sectionDescription: PropTypes.string,
 
-	teamsData: PropTypes.array
+	teamsData: PropTypes.array,
 };
 
 // Default Props
@@ -96,13 +96,13 @@ Team.defaultProps = {
 			name: "Jason Matthews",
 			designation: "Founder & CEO",
 			image: require("../../assets/img/jason.jpg"),
-			altImage: "Gäshawk Jason"
+			altImage: "Gäshawk Jason",
 		},
 		{
 			name: "CJ Owens",
 			designation: "Co-Founder & COO",
 			image: require("../../assets/img/cj.jpg"),
-			altImage: "Gäshawk CJ"
+			altImage: "Gäshawk CJ",
 		},
 		{
 			linkedinLink:
@@ -113,21 +113,21 @@ Team.defaultProps = {
 			name: "Steve Claucherty",
 			designation: "Mechanical Engineer",
 			image: require("../../assets/img/steve.jpg"),
-			altImage: "Gäshawk Steve"
+			altImage: "Gäshawk Steve",
 		},
 		{
-			linkedinLink: "https://www.linkedin.com/in/lockjio/",
+			linkedinLink: "https://www.linkedin.com/in/saejhi/",
 			linkedinLabel: "Jio LinkedIn",
-			githubLink: "https://github.com/lockjio",
+			githubLink: "https://github.com/saejhi",
 			githubLabel: "Jio GitHub",
 			websiteLink: "https://jbuenviaje.com/",
 			websiteLabel: "Jio Website",
 			name: "Jio Buenviaje",
 			designation: "Technical Advisor",
 			image: require("../../assets/img/jio.jpg"),
-			altImage: "Gäshawk Jio"
-		}
-	]
+			altImage: "Gäshawk Jio",
+		},
+	],
 };
 
 export default Team;

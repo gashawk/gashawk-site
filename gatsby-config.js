@@ -2,8 +2,8 @@ module.exports = {
 	siteMetadata: {
 		title: `Gäshawk`,
 		description: `Our passion is the great outdoors. Our calling is creating solutions for it.`,
-		author: `@lockjio`,
-		siteUrl: `https://gashawkrv.com/`
+		author: `@saejhi`,
+		siteUrl: `https://gashawkrv.com/`,
 	},
 	plugins: [
 		`gatsby-plugin-react-helmet`,
@@ -11,8 +11,8 @@ module.exports = {
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				name: `src`,
-				path: `${__dirname}/src/`
-			}
+				path: `${__dirname}/src/`,
+			},
 		},
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
@@ -25,25 +25,25 @@ module.exports = {
 				background_color: `#ffffff`,
 				theme_color: `#062c5d`,
 				display: `minimal-ui`,
-				icon: `src/favicon.png` // This path is relative to the root of the site.
-			}
+				icon: `src/favicon.png`, // This path is relative to the root of the site.
+			},
 		},
 		{
 			resolve: "gatsby-plugin-html-attributes",
 			options: {
-				lang: "en"
-			}
+				lang: "en",
+			},
 		},
 		{
 			resolve: `gatsby-plugin-google-analytics`,
 			options: {
 				// replace "UA-XXXXXXXXX-X" with your own Tracking ID
-				trackingId: "UA-150731209-4"
-			}
+				trackingId: "UA-150731209-4",
+			},
 		},
 		`gatsby-plugin-sass`,
 		`gatsby-plugin-favicon`,
 		`gatsby-plugin-remove-trailing-slashes`,
-		`gatsby-plugin-offline`
-	]
+		`gatsby-plugin-offline`,
+	],
 };
