@@ -20,7 +20,7 @@
 		"gatsby-plugin-smoothscroll": "^1.1.0",
 		"gatsby-source-filesystem": "^2.1.56",
 		"gatsby-transformer-sharp": "^2.3.19",
-		"node-sass": "^4.13.1",
+		"node-sass": "^7.0.0",
 		"popper.js": "^1.14.3",
 		"prop-types": "^15.7.1",
 		"react": "^16.8.1",
